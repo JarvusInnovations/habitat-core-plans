@@ -1,12 +1,12 @@
 pkg_name=netdata
 pkg_origin=core
-pkg_version="1.10.0"
+pkg_version="1.11.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=("GPL-3.0-or-later")
 pkg_description="netdata is a system for distributed real-time performance and health monitoring."
 pkg_upstream_url="https://github.com/firehol/netdata"
 pkg_source="https://github.com/firehol/${pkg_name}/archive/v${pkg_version}.tar.gz"
-pkg_shasum="645b1cb60a779132c816d1bad377574884992c214bbb0f7a483649878884dbab"
+pkg_shasum="56bffc916e643a7b0b35a4a998a6b358b89cc7209ad40ac3803880bf86525b78"
 
 pkg_build_deps=(
   core/autoconf
